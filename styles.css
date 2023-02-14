@@ -171,3 +171,25 @@ a {
 a:link, a:visited {
     color: black;
 }
+
+@media (max-width: 600px) {
+    .mountain {
+        width: 100%;
+        
+        object-position: bottom;
+    }  
+
+    .introduction h1 {
+        font-size: 6rem;
+        font-family: 'Sacramento';
+        font-weight: bold;
+        color: #66bfbf;
+        padding: 5% 0 0 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .cloud_2 {
+        visibility: hidden;
+    }
+}
